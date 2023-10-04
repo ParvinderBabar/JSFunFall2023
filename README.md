@@ -15,10 +15,10 @@ git clone https://github.com/AlbanyCanCodeCourses/JSFunFall2023.git
 Add the original repository as a remote to your forked repository:
 
 ```bash
-cd JSFunSpring2023
+cd JSFunFall2023
 git remote add upstream https://github.com/AlbanyCanCodeCourses/JSFunFall2023.git
 git remote -v
-# You should see your upstream set as https://github.com/AlbanyCanCodeCourses/JSFunFall2023.git
+g# You should see your upstream set as https://github.com/AlbanyCanCodeCourses/JSFunFall2023.git
 git config pull.rebase false
 ```
 
