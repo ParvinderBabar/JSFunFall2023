@@ -6,8 +6,9 @@ const fullName = "Coco Chanel";
 
 // This should get the last name for all full names
 const name = fullName.split(" ");
-const lastname = name(name.length - 1);
+const lastname = name[name.length - 1];
 console.log(lastname);
+
 
 
 
