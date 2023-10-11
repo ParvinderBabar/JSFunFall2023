@@ -6,3 +6,8 @@ const ONE_HUNDRED = 100;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+a = 50;
+b=5
+const percentage = a / b * ONE_HUNDRED;
+console.log(percentage);
+
