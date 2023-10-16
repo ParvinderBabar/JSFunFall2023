@@ -9,6 +9,6 @@ let b = 5; // e.g.
 // WRITE YOUR ANSWER BELOW THIS LINE
 
 
-let difference = a - b;
+let difference = b-a;
 console.log(difference);
 

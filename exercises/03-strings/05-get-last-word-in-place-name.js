@@ -15,4 +15,8 @@ const place = "New Jersey"; // e.g.
  * "newPlace" should equal "Diego"
  */
 
+
 // WRITE YOUR ANSWER BELOW THIS LINE
+let index = place.lastIndexOf(" ");
+let newPlace = place.substring(index+1);
+console.log(newPlace);

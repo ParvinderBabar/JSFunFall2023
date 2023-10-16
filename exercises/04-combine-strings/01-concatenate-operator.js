@@ -11,8 +11,13 @@ let author = "J. K. Rowling";
  * @example
  * // Declare "bookTitle"
  * console.log(bookTitle); // Harry Potter and the Sorcerer's Stone by J. K. Rowling
+ * 
+ * 
+ * 
  *
  * This should still work when "bookTitle" and "author" are different values.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+let bookInfo = bookTitle +" by "+ author;
+console.log(bookInfo);
