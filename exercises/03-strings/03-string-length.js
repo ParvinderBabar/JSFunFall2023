@@ -10,5 +10,5 @@ const str = "bananas"; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-const strlength = str.length;
-console.log(strlength);
+const strLength = str.length;
+console.log(strLength);

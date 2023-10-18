@@ -1,5 +1,6 @@
 let num1 = 15; // e.g.
 let num2 = 20; // e.g.
+let isLargerNumber;
 
 /**
  * Create a variable called "isLargerNumber". (Do not use var.)
@@ -10,3 +11,10 @@ let num2 = 20; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+if (num2> num1) { 
+    isLargerNumber = true;
+}
+else (num1 >= num2)
+{
+    isLargerNumber = false;
+}
