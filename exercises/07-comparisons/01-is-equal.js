@@ -16,6 +16,7 @@ if (userInput1 === userInput2) {
     isEqual = true;
     console.log(isEqual);
 }
-else
+else {
     isEqual = false;
-console.log(isEqual);
+    console.log(isEqual);
+}

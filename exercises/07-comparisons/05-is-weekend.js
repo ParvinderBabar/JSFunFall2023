@@ -10,7 +10,7 @@ let day = "Saturday";
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 let isWeekend;
-if (day = saturday || day == Sunday) {
+if (day = saturday || day = Sunday) {
     isWeekend = true;
 }
 else

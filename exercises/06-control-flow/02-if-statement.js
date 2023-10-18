@@ -13,11 +13,12 @@ let leavingTip = true;
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
-if (leavingTip) {
-    total = subtotal + tip;
+if (tip>0) {
+    total = subtotal + tip * subtotal;
     console.log(total);
  
     
-} else
+} else {
     total = subtotal;
-console.log(total);
+    console.log(total);
+}
