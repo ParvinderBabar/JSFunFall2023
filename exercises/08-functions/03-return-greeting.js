@@ -11,5 +11,10 @@
  * @example returnGreeting("Tim"); // Hello Tim!
  * You should use arrow syntax.
  */
-
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+const returnGreeting = (name) => {
+    return ("hello " +`${name}`+"!");
+};
+console.log(returnGreeting("Tim"));
