@@ -17,7 +17,8 @@
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 const lowerCaseString = (str) => { 
-    return str.toLowerCase(str);
+    if(typeof str === str)
+    return str.toLowerCase();
 }
 console.log(lowerCaseString("HELLO WORLD"));
 console.log(lowerCaseString(123));
