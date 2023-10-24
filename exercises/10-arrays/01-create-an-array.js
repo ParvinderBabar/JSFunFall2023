@@ -4,3 +4,5 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const restaurants = ["appetizer","desert","mainCourse"];
+console.log(restaurants);
