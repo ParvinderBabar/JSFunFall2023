@@ -11,7 +11,6 @@ let highest=0;
 for (let i = 0; i < numbers.length;i++) { 
     if (numbers[i] > highest) {
         highest = numbers[i];
-        console.log(numbers[i], "is the highest");
     }
 }
 console.log(highest, "is the highest");
