@@ -30,3 +30,13 @@ let linkedInLink = "https://linkedin.com/profile"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+const graduate = {
+    name:"Eddie Willard", // e.g.
+graduationYear:"2022", // e.g.
+skills:["Javascript", "React", "CSS"], // e.g.
+    links: {
+        githubLink: "https://github.com/example/profile", // e.g.
+        linkedInLink: "https://linkedin.com/profile"
+    } // e.g.
+};
+console.log(graduate);

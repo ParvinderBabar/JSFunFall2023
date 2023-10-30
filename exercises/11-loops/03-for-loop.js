@@ -9,4 +9,10 @@ const array = ["Honda", "Ford", "Ferrari"];
  * and nothing else.
  */
 
+
 // WRITE YOUR ANSWER BELOW THIS LINE
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+ 
+

@@ -15,3 +15,6 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+student.name = "parvinder";
+student.skills = ["JavaScript","Being a permanent student"];
+console.log(student);
