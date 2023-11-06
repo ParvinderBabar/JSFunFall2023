@@ -12,5 +12,5 @@ const clothes = {
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-let hat = clothes.hat;
-console.log(clothes.hat);
+let hat = clothes["hat"];
+

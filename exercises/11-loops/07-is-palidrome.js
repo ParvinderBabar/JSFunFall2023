@@ -18,5 +18,4 @@ if (newString === string) {
     console.log("string is palindrome");
 }
 else
-    isPalindrome = false;
 console.log("string is not a palinrdome");
