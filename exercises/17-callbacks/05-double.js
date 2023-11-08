@@ -23,13 +23,18 @@ const doubleNumber = (num) => {
  * @param {function} doubleNumber
  * @returns {array}
  */
-
+const newArray = [];
 const doubleArray = (originalArray, doubleNumber) => {
+  for (let num of originalArray) { 
+     newArray.push( doubleNumber(num));
+    
+  }
   // WRITE YOUR ANSWER IN HERE
-};
+  return newArray };
 
 // Uncomment me to test your answer in Quokka
-// doubleArray([1, 2, 3], doubleNumber);
+doubleArray([1, 2, 3], doubleNumber);
+console.log(newArray);
 
 // IGNORE THIS BELOW. It is for the tests.
 
