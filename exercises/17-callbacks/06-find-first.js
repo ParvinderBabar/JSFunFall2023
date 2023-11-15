@@ -43,11 +43,13 @@ const newArray = [];
 const findFirst = (arrayOfNum, callback) => {
   // WRITE YOUR ANSWER IN HERE
   for (let number of arrayOfNum) { 
-    if (callback(number)) {
-      return number;
+    let num = callback(number)
+   if (num===true) {
+      return num;
     }
+    return null;
     }
-  return null;
+  
 };
 
 
