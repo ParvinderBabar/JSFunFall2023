@@ -12,4 +12,29 @@
  */
 (function () {
   // Put your answers in here
+
+
+  const list = document.querySelector('ul li myId');
+  console.log(list);
+  const listClass = document.querySelector('.bg-warning');
+  for (let warnings of listClass) {
+    console.log(listclass);
+  }
+
+  const targetButton = document.querySelector('target-me-button');
+  console.log(targetButton);
+  const allLink = document.querySelectorAll('.socialMedia');
+  allLink.foreach((Links) => {
+    console.log(Links);
+  })
+ 
+  const nestedTag = document.querySelector('#myRow .col');
+  for (let cells of nestedTag)
+  {
+    console.log(cells);
+    }
+  
+
+
+
 })();
