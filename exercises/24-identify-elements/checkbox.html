@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="hobby">Hobby</label>
+    <input type="text" id="hobby">
+    <div id="message"><!-- Display your message here --></div>
+    <script>
+        !(function () {
+    
+                // write code here
+                // const Hobby = document.querySelector("#hobby");
+                // const DisplayMsg= (event)=>{
+                // console.log(event.target.value);     
+                //        }
+               
+                // const msg = document.querySelector('#message');
+                // Hobby.addEventListener("change",DisplayMsg);
+
+                // });
+    const hobby = document.querySelector("#hobby");
+            const message = document.querySelector("#message");
+
+            const messageChange = () => {
+                message.textContent = hobby.value;
+                console.log(messageChange);
+            }
+
+            hobby.addEventListener("input", mesageChange);
+        }); 
+    </script>
+</body>
+
+</html>
