@@ -40,3 +40,34 @@ skills:["Javascript", "React", "CSS"], // e.g.
     } // e.g.
 };
 console.log(graduate);
+
+  const product= {
+    category: "food",
+    items: [
+      {
+        name: "Cheerios",
+        description: "A popular breakfast cereal",
+        price: 3.64,
+       quantity:"18oz"
+      },
+      {
+        name: "Gerber Baby Food",
+        description: "Nutritious baby food for infants",
+        price: 1.06,
+  
+      },
+      {
+        name: "Welch's Fruit Snacks",
+        description: "Delicious fruit snacks for all ages",
+        price: 6.98,
+        quantity:"0.9oz"
+      },
+      {
+        name: "Folgers Classic Roast",
+        description: "Classic ground coffee for a rich cup",
+        price:9.96,
+        quantity:"48oz"
+      }
+    ]
+  }
+console.log(product);

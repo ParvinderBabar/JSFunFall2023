@@ -9,6 +9,18 @@
    * When the user types inside the textbook labeled "Enter mystery text here",
    * it should display what the user is typing in the <div></div> tags below.
    */
+
+  // const displayTextCLass = document.querySelector(".container");
+  
+  
+  function displayInput() {
+    const showmessage = document.querySelector('#inputtext');
+    const divShow = document.querySelector('#showCardInput');
+    // console.log(`${showmessage}`);
+    divShow.textContent = showmessage.value;
+    // console.log(divShow.value);
+  }
+  document.addEventListener("change", displayInput);
   // Write your answer here
   /**
    * Problem 2: Display the results of the world's most pointless search engine.
